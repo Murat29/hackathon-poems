@@ -1,0 +1,15 @@
+.header__profile {
+  width: 45px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__profile {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__profile {
+    width: 32px;
+  }
+}

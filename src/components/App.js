@@ -1,7 +1,8 @@
 import "./App.css";
+import Header from "./Header";
 
 function App() {
-  return <div>Hello word</div>;
+  return <Header />;
 }
 
 export default App;
