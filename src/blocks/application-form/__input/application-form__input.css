@@ -1,0 +1,13 @@
+.application-form__input {
+  margin-top: 16px;
+  min-height: 40px;
+  box-sizing: border-box;
+  padding: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .application-form__input {
+    min-height: 32px;
+  }
+}

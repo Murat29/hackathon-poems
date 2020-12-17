@@ -1,0 +1,9 @@
+.application-form__button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  outline: none;
+}

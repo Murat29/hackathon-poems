@@ -1,0 +1,13 @@
+.application-form__button_type_search {
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+  background-image: url(../../../../images/search-input.svg);
+  height: 100px;
+  width: 40px;
+  height: 40px;
+  align-self: center;
+  margin-top: 16px;
+}

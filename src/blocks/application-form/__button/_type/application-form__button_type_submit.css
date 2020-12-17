@@ -1,0 +1,19 @@
+.application-form__button_type_submit {
+  margin: 40px 0 40px;
+  background: #667080;
+  color: #fff;
+  min-height: 42px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  min-width: 272px;
+  align-self: center;
+}
+
+@media screen and (max-width: 425px) {
+  .application-form__button_type_submit {
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

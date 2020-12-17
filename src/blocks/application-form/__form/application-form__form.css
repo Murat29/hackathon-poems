@@ -1,0 +1,19 @@
+.application-form__form {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 512px;
+}
+
+@media screen and (max-width: 767px) {
+  .application-form__form {
+    margin-top: 36px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .application-form__form {
+    margin-top: 24px;
+  }
+}
