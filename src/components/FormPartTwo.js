@@ -1,8 +1,9 @@
 import statusBar2 from "../images/status-bar-2.svg";
 import React from "react";
 import Input from "./Input.js";
+import { Link } from "react-router-dom";
 
-function FormParTwo() {
+function FormPartTwo() {
   const [inputs, setInputs] = React.useState([""]);
 
   const [poems, setPoems] = React.useState([]);
@@ -53,15 +54,17 @@ function FormParTwo() {
           disabled={inputs.length > 3 ? true : false}
           className="application-form__button application-form__button_type_add-input"
         ></button>
-        <button
-          className="application-form__button application-form__button_type_submit"
-          type="submit"
-        >
-          продолжить
-        </button>
+        <Link to="/form-part-three">
+          <button
+            className="application-form__button application-form__button_type_submit"
+            type="submit"
+          >
+            продолжить
+          </button>
+        </Link>
       </form>
     </main>
   );
 }
 
-export default FormParTwo;
+export default FormPartTwo;

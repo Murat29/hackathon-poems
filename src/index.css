@@ -16,6 +16,8 @@
 @import url(./blocks/application-form/__title/application-form__title.css);
 @import url(./blocks/application-form/__status-bar/application-form__status-bar.css);
 @import url(./blocks/application-form/__subtitle/application-form__subtitle.css);
+@import url(./blocks/application-form/__poem-container/application-form__poem-container.css);
+@import url(./blocks/application-form/__appeal-container/application-form__appeal-container.css);
 @import url(./blocks/application-form/__text/application-form__text.css);
 @import url(./blocks/application-form/__text/_type/application-form__text_type_address.css);
 @import url(./blocks/application-form/__form/application-form__form.css);
@@ -27,4 +29,6 @@
 @import url(./blocks/application-form/__button/_type/application-form__button_type_search.css);
 @import url(./blocks/application-form/__button/_type/application-form__button_type_delete-input.css);
 @import url(./blocks/application-form/__button/_type/application-form__button_type_submit.css);
+@import url(./blocks/application-form/__button/_type/application-form__button_type_back.css);
+@import url(./blocks/application-form/__button/_type/application-form__button_type_history.css);
 @import url(./blocks/application-form/__text/_type/application-form__text_type_poem.css);
