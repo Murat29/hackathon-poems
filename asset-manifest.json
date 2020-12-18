@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/hackathon-poems/static/css/main.cc18999f.chunk.css",
-    "main.js": "/hackathon-poems/static/js/main.17d37186.chunk.js",
-    "main.js.map": "/hackathon-poems/static/js/main.17d37186.chunk.js.map",
+    "main.js": "/hackathon-poems/static/js/main.c5b5bf46.chunk.js",
+    "main.js.map": "/hackathon-poems/static/js/main.c5b5bf46.chunk.js.map",
     "runtime-main.js": "/hackathon-poems/static/js/runtime-main.74276545.js",
     "runtime-main.js.map": "/hackathon-poems/static/js/runtime-main.74276545.js.map",
-    "static/js/2.8d3ebfcf.chunk.js": "/hackathon-poems/static/js/2.8d3ebfcf.chunk.js",
-    "static/js/2.8d3ebfcf.chunk.js.map": "/hackathon-poems/static/js/2.8d3ebfcf.chunk.js.map",
+    "static/js/2.e6027ec8.chunk.js": "/hackathon-poems/static/js/2.e6027ec8.chunk.js",
+    "static/js/2.e6027ec8.chunk.js.map": "/hackathon-poems/static/js/2.e6027ec8.chunk.js.map",
     "static/js/3.1366d341.chunk.js": "/hackathon-poems/static/js/3.1366d341.chunk.js",
     "static/js/3.1366d341.chunk.js.map": "/hackathon-poems/static/js/3.1366d341.chunk.js.map",
     "index.html": "/hackathon-poems/index.html",
     "static/css/main.cc18999f.chunk.css.map": "/hackathon-poems/static/css/main.cc18999f.chunk.css.map",
-    "static/js/2.8d3ebfcf.chunk.js.LICENSE.txt": "/hackathon-poems/static/js/2.8d3ebfcf.chunk.js.LICENSE.txt",
+    "static/js/2.e6027ec8.chunk.js.LICENSE.txt": "/hackathon-poems/static/js/2.e6027ec8.chunk.js.LICENSE.txt",
     "static/media/index.css": "/hackathon-poems/static/media/search-input.d18d0d1f.svg",
     "static/media/icon-address.95447a5f.svg": "/hackathon-poems/static/media/icon-address.95447a5f.svg",
     "static/media/icon-classmates.5baabf20.svg": "/hackathon-poems/static/media/icon-classmates.5baabf20.svg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.74276545.js",
-    "static/js/2.8d3ebfcf.chunk.js",
+    "static/js/2.e6027ec8.chunk.js",
     "static/css/main.cc18999f.chunk.css",
-    "static/js/main.17d37186.chunk.js"
+    "static/js/main.c5b5bf46.chunk.js"
   ]
 }
