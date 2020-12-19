@@ -1,7 +1,14 @@
 .lead__text-img {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    color: #E5E5E5;
-    margin: auto;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #e5e5e5;
+  margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__text-img {
+    font-size: 18px;
+    line-height: 21px;
+  }
 }
