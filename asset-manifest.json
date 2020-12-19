@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hackathon-poems/static/css/main.dc1c63c0.chunk.css",
-    "main.js": "/hackathon-poems/static/js/main.4da6ba60.chunk.js",
-    "main.js.map": "/hackathon-poems/static/js/main.4da6ba60.chunk.js.map",
-    "runtime-main.js": "/hackathon-poems/static/js/runtime-main.a47a6ffa.js",
-    "runtime-main.js.map": "/hackathon-poems/static/js/runtime-main.a47a6ffa.js.map",
+    "main.css": "/hackathon-poems/static/css/main.80566168.chunk.css",
+    "main.js": "/hackathon-poems/static/js/main.bbf2b76c.chunk.js",
+    "main.js.map": "/hackathon-poems/static/js/main.bbf2b76c.chunk.js.map",
+    "runtime-main.js": "/hackathon-poems/static/js/runtime-main.8a9ee3e9.js",
+    "runtime-main.js.map": "/hackathon-poems/static/js/runtime-main.8a9ee3e9.js.map",
     "static/css/2.f2498732.chunk.css": "/hackathon-poems/static/css/2.f2498732.chunk.css",
-    "static/js/2.d7c1705e.chunk.js": "/hackathon-poems/static/js/2.d7c1705e.chunk.js",
-    "static/js/2.d7c1705e.chunk.js.map": "/hackathon-poems/static/js/2.d7c1705e.chunk.js.map",
-    "static/js/3.e6807624.chunk.js": "/hackathon-poems/static/js/3.e6807624.chunk.js",
-    "static/js/3.e6807624.chunk.js.map": "/hackathon-poems/static/js/3.e6807624.chunk.js.map",
+    "static/js/2.0ea04ae7.chunk.js": "/hackathon-poems/static/js/2.0ea04ae7.chunk.js",
+    "static/js/2.0ea04ae7.chunk.js.map": "/hackathon-poems/static/js/2.0ea04ae7.chunk.js.map",
+    "static/js/3.d119fe02.chunk.js": "/hackathon-poems/static/js/3.d119fe02.chunk.js",
+    "static/js/3.d119fe02.chunk.js.map": "/hackathon-poems/static/js/3.d119fe02.chunk.js.map",
     "index.html": "/hackathon-poems/index.html",
     "static/css/2.f2498732.chunk.css.map": "/hackathon-poems/static/css/2.f2498732.chunk.css.map",
-    "static/css/main.dc1c63c0.chunk.css.map": "/hackathon-poems/static/css/main.dc1c63c0.chunk.css.map",
-    "static/js/2.d7c1705e.chunk.js.LICENSE.txt": "/hackathon-poems/static/js/2.d7c1705e.chunk.js.LICENSE.txt",
+    "static/css/main.80566168.chunk.css.map": "/hackathon-poems/static/css/main.80566168.chunk.css.map",
+    "static/js/2.0ea04ae7.chunk.js.LICENSE.txt": "/hackathon-poems/static/js/2.0ea04ae7.chunk.js.LICENSE.txt",
     "static/media/index.css": "/hackathon-poems/static/media/скрыть пароль.5854ebfa.svg",
     "static/media/icon-address.95447a5f.svg": "/hackathon-poems/static/media/icon-address.95447a5f.svg",
     "static/media/status-bar-1.bd825f8a.svg": "/hackathon-poems/static/media/status-bar-1.bd825f8a.svg",
@@ -28,10 +28,10 @@
     "static/media/микрофон.0ac8a2f6.svg": "/hackathon-poems/static/media/микрофон.0ac8a2f6.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a47a6ffa.js",
+    "static/js/runtime-main.8a9ee3e9.js",
     "static/css/2.f2498732.chunk.css",
-    "static/js/2.d7c1705e.chunk.js",
-    "static/css/main.dc1c63c0.chunk.css",
-    "static/js/main.4da6ba60.chunk.js"
+    "static/js/2.0ea04ae7.chunk.js",
+    "static/css/main.80566168.chunk.css",
+    "static/js/main.bbf2b76c.chunk.js"
   ]
 }
