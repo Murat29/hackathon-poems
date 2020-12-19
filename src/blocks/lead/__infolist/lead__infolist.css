@@ -1,0 +1,9 @@
+.lead__infolist {
+    min-height: 72px;
+    width: 83.6%;
+    display: grid;
+    row-gap: 8px;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}

@@ -1,0 +1,8 @@
+.popup__button-close {
+  width: 16px;
+  height: 16px;
+  border: none;
+  background-color: white;
+  background-image: url(../../../images/закрытие-попапа.svg);
+  background-size: cover;
+}

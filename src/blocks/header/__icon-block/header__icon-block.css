@@ -1,0 +1,11 @@
+.header__icon-block {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__icon-block {
+        display: flex;
+        justify-content: space-between;
+        width: 77px;
+    }
+}

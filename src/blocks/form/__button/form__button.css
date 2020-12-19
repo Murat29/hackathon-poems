@@ -1,0 +1,10 @@
+.form__button {
+    background: #667080;
+    border: 2px solid #667080;
+    width: 100%;
+    min-height: 32px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #E5E5E5;
+}

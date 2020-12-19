@@ -1,0 +1,14 @@
+.footer__info {
+    width: 85%;
+    min-height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer__info {
+        width: 81.25%;
+        min-height: 174px;
+    }
+}

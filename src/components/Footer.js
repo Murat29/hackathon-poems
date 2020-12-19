@@ -1,23 +1,29 @@
-import iconClassmates from "../images/icon-classmates.svg";
-import iconVk from "../images/icon-vk.svg";
+import iconclassNamemates from "../images/лого-ок.svg";
+import iconVk from "../images/лого-вк.svg";
 
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer__container">
-        <div className="footer__text-container">
-          <a className="footer__link" href="#">
-            Условия обслуживания
+      <div className="footer__info">
+        <ul className="info-list">
+          <li className="info-list__helpful-info">
+            <a>Условия обслуживания</a>
+          </li>
+          <li className="info-list__helpful-info">
+            <a>Политика конфиденциальности</a>
+          </li>
+          <li>
+            <p className="info-list__helpful-info">Официальный сайт Гражданин-поэт, 2025 г.</p>
+          </li>
+        </ul>
+        <nav className="social-icons">
+          <a href="#" className="social-icons__icon-OK">
+            <img src={iconclassNamemates} alt="лого-ОК"></img>
           </a>
-          <a className="footer__link" href="#">
-            Политика конфиденциальности
+          <a href="#" className="social-icons__icon-Vk">
+            <img src={iconVk} alt="лого-ВК"></img>
           </a>
-          <p className="footer__text">Официальный сайт Гражданин-поэт, 2025 г.</p>
-        </div>
-        <div className="footer__icons">
-          <img className="footer__icon-classmates" src={iconClassmates} alt="Однокласники"></img>
-          <img className="footer__icon-vk" src={iconVk} alt="Вконтакте"></img>
-        </div>
+        </nav>
       </div>
     </footer>
   );

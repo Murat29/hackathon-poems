@@ -1,0 +1,6 @@
+.lead__infolist-block {
+    min-height: 120px;
+    border: 2px solid #667080;
+    margin-bottom: 24px;
+    display: flex;
+}

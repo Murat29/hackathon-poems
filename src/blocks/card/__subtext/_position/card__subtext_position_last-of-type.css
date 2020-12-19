@@ -1,0 +1,5 @@
+@media screen and (min-width: 1024px) {
+    .card__subtext_position_last-of-type {
+        margin: 0 0 24px 24px;
+    }
+}

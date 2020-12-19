@@ -1,0 +1,17 @@
+.card__subtext {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 32px;
+    color: #667080;
+    display: none;
+    width: 142px;
+    margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .card__subtext {
+        display: block;
+        margin: 0 0 0 24px;
+        width: 224px;
+    }
+}
