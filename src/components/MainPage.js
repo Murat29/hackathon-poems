@@ -22,11 +22,17 @@ function MainPage() {
             </li>
           </ul>
         </div>
-        <Link to="/login">
-          <button type="button" className="lead__button">
-            Стать участником
-          </button>
-        </Link>
+
+        <div className="lead__contanier">
+          <p className="lead__contanier-text">
+            Самое важное – сделать хоть что-то для достижения успеха
+          </p>
+          <Link to="/login">
+            <button type="button" className="lead__button">
+              Стать участником
+            </button>
+          </Link>
+        </div>
       </section>
       <section className="info">
         <ul className="info__items">

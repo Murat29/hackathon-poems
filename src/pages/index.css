@@ -1,5 +1,3 @@
-@import url(../blocks/page/page.css);
-
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__icons/header__icons.css);
 @import url(../blocks/header/__icon-menu/header__icon-menu.css);
@@ -11,8 +9,6 @@
 @import url(../blocks/header/__icon-block/header__icon-block.css);
 @import url(../blocks/header/__button-search/header__button-search.css);
 
-@import url(../blocks/main/main.css);
-
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__future-img/lead__future-img.css);
 @import url(../blocks/lead/__text-img/lead__text-img.css);
@@ -20,6 +16,8 @@
 @import url(../blocks/lead/__infolist/lead__infolist.css);
 @import url(../blocks/lead/__text/lead__text.css);
 @import url(../blocks/lead/__number/lead__number.css);
+@import url(../blocks/lead/__container/lead__container.css);
+@import url(../blocks/lead/__container-text/lead__container-text.css);
 @import url(../blocks/lead/__button/lead__button.css);
 
 @import url(../blocks/info/info.css);
