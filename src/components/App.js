@@ -7,8 +7,18 @@ import FormPartTwo from "./FormPartTwo";
 import FormPartThree from "./FormPartThree";
 import FormPartFour from "./FormPartFour";
 import { Route } from "react-router-dom";
+import React from "react";
+import NewAppealContext from "./contexts/NewAppealContext";
 
 function App() {
+  const [NewAppeal, SetNewAppeal] = React.useState({
+    theme: "",
+    address: "",
+    poem: "",
+    status: "В работе",
+    data: "",
+  });
+
   return (
     <>
       <Route path="/">
@@ -19,18 +29,20 @@ function App() {
         <Route path="/login">
           <Login />
         </Route>
-        <Route path="/form-part-one">
-          <FormPartOne />
-        </Route>
-        <Route path="/form-part-two">
-          <FormPartTwo />
-        </Route>
-        <Route path="/form-part-three">
-          <FormPartThree />
-        </Route>
-        <Route path="/form-part-four">
-          <FormPartFour />
-        </Route>
+        <NewAppealContext.Provider value={NewAppeal}>
+          <Route path="/form-part-one">
+            <FormPartOne SetNewAppeal={SetNewAppeal} />
+          </Route>
+          <Route path="/form-part-two">
+            <FormPartTwo SetNewAppeal={SetNewAppeal} />
+          </Route>
+          <Route path="/form-part-three">
+            <FormPartThree SetNewAppeal={SetNewAppeal} />
+          </Route>
+          <Route path="/form-part-four">
+            <FormPartFour />
+          </Route>
+        </NewAppealContext.Provider>
         <Footer />
       </Route>
     </>

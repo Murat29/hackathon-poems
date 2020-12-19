@@ -1,4 +1,5 @@
 .application-form__button_type_back {
+  position: relative;
   margin: 40px 0 -30px;
   min-height: 42px;
   font-weight: 300;

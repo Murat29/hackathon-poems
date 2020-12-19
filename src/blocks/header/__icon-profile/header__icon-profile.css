@@ -1,0 +1,9 @@
+.header__icon-profile {
+    width: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__icon-profile {
+        display: none;
+    }
+}

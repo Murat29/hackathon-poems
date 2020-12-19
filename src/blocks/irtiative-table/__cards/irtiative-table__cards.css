@@ -1,0 +1,15 @@
+.irtiative-table__cards {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 190px);
+    column-gap: 16px;
+    overflow: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .irtiative-table__cards {
+        grid-template-columns: repeat(4, 336px);
+    }
+}

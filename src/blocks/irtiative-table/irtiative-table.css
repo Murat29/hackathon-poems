@@ -1,0 +1,15 @@
+.irtiative-table {
+  overflow: auto;
+  display: grid;
+  row-gap: 24px;
+}
+
+.irtiative-table:last-of-type {
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+  .irtiative-table {
+    row-gap: 40px;
+  }
+}

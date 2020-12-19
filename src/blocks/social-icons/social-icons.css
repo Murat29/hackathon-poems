@@ -1,0 +1,14 @@
+.social-icons {
+    width: 46px;
+    min-height: 16px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1024px) {
+    .social-icons {
+        width: 54px;
+        margin-top: 104px;
+    }
+}

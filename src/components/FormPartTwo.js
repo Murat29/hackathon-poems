@@ -2,10 +2,12 @@ import statusBar2 from "../images/status-bar-2.svg";
 import React from "react";
 import Input from "./Input.js";
 import { Link } from "react-router-dom";
+import NewAppealContext from "./contexts/NewAppealContext";
 
-function FormPartTwo() {
+function FormPartTwo({ SetNewAppeal }) {
+  const NewAppeal = React.useContext(NewAppealContext);
+
   const [inputs, setInputs] = React.useState([""]);
-
   const [poems, setPoems] = React.useState([]);
 
   function addInput(evt) {
@@ -24,6 +26,10 @@ function FormPartTwo() {
     let newInputs = [...inputs];
     newInputs[i] = e.target.value;
     setInputs(newInputs);
+  }
+
+  function handleSubmit() {
+    SetNewAppeal({ ...NewAppeal, poem: poems });
   }
 
   function onSubmit(evt) {}
@@ -54,8 +60,9 @@ function FormPartTwo() {
           disabled={inputs.length > 3 ? true : false}
           className="application-form__button application-form__button_type_add-input"
         ></button>
-        <Link to="/form-part-three">
+        <Link to="/form-part-three" style={{ alignSelf: "center" }}>
           <button
+            onClick={handleSubmit}
             className="application-form__button application-form__button_type_submit"
             type="submit"
           >

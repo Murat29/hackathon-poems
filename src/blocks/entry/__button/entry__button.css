@@ -1,0 +1,24 @@
+.entry__button {
+  width: 104px;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 114%;
+  text-align: end;
+  background-color: white;
+  border: none;
+  background-image: url(../../../images/иконкапрофиля.svg);
+  background-size: 16px 32px;
+  background-position: left;
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
+}
+
+@media screen and (min-width: 1024px) {
+  .entry__button {
+    background-image: url(../../../images/иконкапрофиля-desktop.svg);
+    background-size: 56px 56px;
+    width: 136px;
+    height: 56px;
+    margin: 24px 0 16px 24px;
+  }
+}

@@ -1,0 +1,6 @@
+.lead__future-img {
+    min-height: 200px;
+    background-color: #667080;
+    border: 2px solid #667080;
+    display: flex;
+}

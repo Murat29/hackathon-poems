@@ -1,0 +1,12 @@
+.header__links {
+    display: none;
+    justify-content: space-between;
+    width: 515px;
+    min-height: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__links {
+        display: flex;
+    }
+}

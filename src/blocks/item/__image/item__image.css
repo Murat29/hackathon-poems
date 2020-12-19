@@ -1,0 +1,11 @@
+.item__image {
+    width: 56px;
+}
+
+@media screen and (min-width: 1024px) {
+    .item__image {
+        width: 180px;
+        height: 180px;
+        padding-bottom: 8px;
+    }
+}

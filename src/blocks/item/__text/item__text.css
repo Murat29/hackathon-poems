@@ -1,0 +1,15 @@
+.item__text {
+    width: 206px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667080;
+    margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .item__text {
+        width: 100%;
+        text-align: center;
+    }
+}

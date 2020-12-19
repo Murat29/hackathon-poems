@@ -1,14 +1,43 @@
-import iconMenu from "../images/icon-menu.svg";
-import iconProfile from "../images/icon-profile.svg";
+import iconMenu from "../images/иконка меню.svg";
+import iconProfile from "../images/иконкапрофиля.svg";
 
 function Header() {
   return (
     <header className="header">
-      <div className="header__container">
-        <img className="header__menu" src={iconMenu} alt="Меню"></img>
-        <p className="header__logo">ЛОГО</p>
-        <img className="header__profile" src={iconProfile} alt="Личный кабанет"></img>
-      </div>
+      <nav className="header__icons">
+        <button className="header__icon-menu">
+          <img src={iconMenu} alt="меню сайта"></img>
+        </button>
+        <a href="#" className="header__icon-logo">
+          ЛОГО
+        </a>
+        <a href="#" className="header__icon-profile">
+          <img src={iconProfile} alt="профиль пользователя"></img>
+        </a>
+        <nav className="header__links">
+          <a href="#" className="header__link">
+            Главная
+          </a>
+          <a href="#" className="header__link">
+            О сервисе
+          </a>
+          <a href="#" className="header__link">
+            Инициативы
+          </a>
+          <a href="#" className="header__link">
+            Результаты
+          </a>
+          <a href="#" className="header__link">
+            Новости
+          </a>
+        </nav>
+        <div className="header__icon-block">
+          <button className="header__button-search"></button>
+          <a href="#" className="header__icon-profile header__icon-profile_type_desktop">
+            <img src={iconProfile} alt="профиль пользователя"></img>
+          </a>
+        </div>
+      </nav>
     </header>
   );
 }

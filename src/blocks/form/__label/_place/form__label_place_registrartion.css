@@ -1,0 +1,10 @@
+.form__label_place_registrartion {
+    width: 257px;
+    margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .form__label_place_registrartion {
+        width: 100%;
+    }
+}
