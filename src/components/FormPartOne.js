@@ -32,9 +32,9 @@ function FormPartOne({ SetNewAppeal }) {
           required
         >
           <option hidden>выберите тему</option>
-          <option value="тема1">тема</option>
-          <option value="тема2">тема</option>
-          <option value="тема3">тема</option>
+          <option value="тема1">тема1</option>
+          <option value="тема2">тема2</option>
+          <option value="тема3">тема3</option>
         </select>
         <AddressSuggestions
           count="5"
