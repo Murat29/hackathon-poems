@@ -1,15 +1,18 @@
 import statusBar3 from "../images/status-bar-3.svg";
 import iconAddress from "../images/icon-address.svg";
-import { Link } from "react-router-dom";
 import React from "react";
 import NewAppealContext from "./contexts/NewAppealContext";
+import { useHistory } from "react-router-dom";
 
 function FormPartThree({ SetNewAppeal }) {
+  const history = useHistory();
+
   const NewAppeal = React.useContext(NewAppealContext);
 
   function handleSubmit() {
     const data = new Date().toLocaleString();
     SetNewAppeal({ ...NewAppeal, data: data });
+    history.push("/form-part-four");
   }
 
   return (
@@ -27,23 +30,20 @@ function FormPartThree({ SetNewAppeal }) {
           {NewAppeal.poem &&
             NewAppeal.poem.map((el) => <p className="application-form__text">{el}</p>)}
         </div>
-        <Link to="/form-part-two" style={{ alignSelf: "center" }}>
-          <button
-            className="application-form__button application-form__button_type_back"
-            type="button"
-          >
-            назад к редактированию
-          </button>
-        </Link>
-        <Link to="/form-part-four" style={{ alignSelf: "center" }}>
-          <button
-            onClick={handleSubmit}
-            className="application-form__button application-form__button_type_submit"
-            type="submit"
-          >
-            опубликовать
-          </button>
-        </Link>
+        <button
+          onClick={() => history.goBack()}
+          className="application-form__button application-form__button_type_back"
+          type="button"
+        >
+          назад к редактированию
+        </button>
+        <button
+          onClick={handleSubmit}
+          className="application-form__button application-form__button_type_submit"
+          type="submit"
+        >
+          опубликовать
+        </button>
       </form>
     </main>
   );

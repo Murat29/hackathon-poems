@@ -9,7 +9,7 @@ function Input({ index, handleText, deleteInput, poems, setPoems, inputs }) {
   }
 
   function handleSearch() {
-    fetch(`https://poems-bd.herokuapp.com/?q=${inputs[index]}&onlyLines=1`)
+    fetch(`https://poems-bd.herokuapp.com/poems/?q=${inputs[index]}&onlyLines=1`)
       .then((res) => res.json())
       .then((res) => {
         const NewPoems = [...poems];
