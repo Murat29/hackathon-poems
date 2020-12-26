@@ -4,10 +4,13 @@
 
 @media screen and (min-width: 1024px) {
   .lead__contanier-text {
-    width: 336px;
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 42px;
+    width: 424px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #17192C;
     display: block;
   }
 }
