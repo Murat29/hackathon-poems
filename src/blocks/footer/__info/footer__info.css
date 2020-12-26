@@ -1,6 +1,6 @@
 .footer__info {
-    width: 85%;
-    min-height: 60px;
+    width: 89.47%;
+    min-height: 69px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -8,7 +8,8 @@
 
 @media screen and (min-width: 1024px) {
     .footer__info {
-        width: 81.25%;
-        min-height: 174px;
+        width: 81.01%;
+        min-height: 64px;
+        align-items: flex-end;
     }
 }
