@@ -1,8 +1,9 @@
 .header__links {
     display: none;
     justify-content: space-between;
-    width: 515px;
-    min-height: 32px;
+    align-items: center;
+    width: 525px;
+    min-height: 40px;
 }
 
 @media screen and (min-width: 1024px) {

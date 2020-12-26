@@ -1,7 +1,9 @@
 .header__icon-logo {
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 42px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
     text-decoration: none;
-    color: #000;
+    color: #f5f1e6;
 }

@@ -23,9 +23,11 @@
 @import url(./blocks/application-form/__routing-link/application-form__routing-link.css);
 
 @import url(./blocks/header/__icons/header__icons.css);
+@import url(./blocks/header/__icons/_type/header__icons_type_desktop.css);
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__icon-menu/header__icon-menu.css);
 @import url(./blocks/header/__icon-logo/header__icon-logo.css);
+@import url(./blocks/header/__icon-logo/_type/header__icon-logo_type_desktop.css);
 @import url(./blocks/header/__icon-profile/header__icon-profile.css);
 @import url(./blocks/header/__icon-profile/_type/header__icon-profile_type_desktop.css);
 @import url(./blocks/header/__links/header__links.css);
