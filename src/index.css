@@ -1,3 +1,4 @@
+@import url(./vendor/font.css);
 @import url(./blocks/body/body.css);
 @import url(./blocks/application-form/application-form.css);
 @import url(./blocks/application-form/__title/application-form__title.css);
@@ -16,10 +17,11 @@
 @import url(./blocks/application-form/__button/_type/application-form__button_type_search.css);
 @import url(./blocks/application-form/__button/_type/application-form__button_type_delete-input.css);
 @import url(./blocks/application-form/__button/_type/application-form__button_type_submit.css);
-@import url(./blocks/application-form/__button/_type/application-form__button_type_back.css);
+@import url(./blocks/application-form/__button/_type/application-form__button_type_light.css);
 @import url(./blocks/application-form/__button/_type/application-form__button_type_history.css);
 @import url(./blocks/application-form/__button/_disabled/application-form__button_disabled.css);
 @import url(./blocks/application-form/__text/_type/application-form__text_type_poem.css);
+@import url(./blocks/application-form/__text/_type/application-form__text_type_poems.css);
 @import url(./blocks/application-form/__routing-link/application-form__routing-link.css);
 
 @import url(./blocks/header/__icons/header__icons.css);

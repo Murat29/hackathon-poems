@@ -28,11 +28,13 @@ function FormPartOne({ SetNewAppeal }) {
 
   return (
     <main className="application-form">
-      <h2 className="application-form__title">текст заголовка</h2>
+      <h2 className="application-form__title">О чем будет ваша инициатива?</h2>
       <img className="application-form__status-bar" src={statusBar1} alt="Статус-бар"></img>
 
       <form name="form" className="application-form__form">
-        <h3 className="application-form__subtitle">текст подзаголовка</h3>
+        <h3 className="application-form__subtitle">
+          Точно укажите тему и адрес, чтобы нам легче было обработать заявку
+        </h3>
         <select
           value={valueSelect || ""}
           onChange={onChangeSelect}
@@ -40,9 +42,11 @@ function FormPartOne({ SetNewAppeal }) {
           required="required"
         >
           <option hidden>выберите тему</option>
-          <option value="тема1">тема1</option>
-          <option value="тема2">тема2</option>
-          <option value="тема3">тема3</option>
+          <option value="городская среда">городская среда</option>
+          <option value="транспортная система">транспортная система</option>
+          <option value="образование">образование</option>
+          <option value="здравоохранение">здравоохранение</option>
+          <option value="другое">другое</option>
         </select>
         <AddressSuggestions
           required="required"
@@ -59,7 +63,7 @@ function FormPartOne({ SetNewAppeal }) {
           }`}
           type="submit"
         >
-          продолжить
+          Продолжить
         </button>
       </form>
     </main>
