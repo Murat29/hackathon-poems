@@ -9,10 +9,15 @@ function Header() {
           <img src={iconMenu} alt="меню сайта"></img>
         </button>
         <a href="#" className="header__icon-logo">
-          ЛОГО
+          ГП
         </a>
         <a href="#" className="header__icon-profile">
           <img src={iconProfile} alt="профиль пользователя"></img>
+        </a>
+      </nav>
+      <nav className="header__icons header__icons_type_desktop">
+        <a href="#" className="header__icon-logo header__icon-logo_type_desktop">
+          Гражданин - поэт
         </a>
         <nav className="header__links">
           <a href="#" className="header__link">
