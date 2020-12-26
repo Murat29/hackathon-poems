@@ -2,26 +2,17 @@ import { Link } from "react-router-dom";
 import microphone from "../images/микрофон.svg";
 import lightbulb from "../images/лампочка.svg";
 import checkMark from "../images/галочка.svg";
+import leadImage from "../images/lead-image.png";
 
 function MainPage() {
   return (
     <main className="main">
       <section className="lead">
-        <div className="lead__future-img">
-          <p className="lead__text-img">изображение</p>
-        </div>
-        <div className="lead__infolist-block">
-          <ul className="lead__infolist">
-            <li className="lead__info-item">
-              <span className="lead__number">2000</span>
-              <p className="lead__text">Решенных проблем</p>
-            </li>
-            <li className="lead__info-item">
-              <span className="lead__number">1000</span>
-              <p className="lead__text">Неравнодушных граждан</p>
-            </li>
-          </ul>
-        </div>
+        <img src={leadImage} alt="люди, которые обнимаются" className="lead__image">
+        </img>
+        <h1 className="lead__title">
+          Гражданин-поэт – говорите с властью на одном языке!
+        </h1>
 
         <div className="lead__contanier">
           <p className="lead__contanier-text">

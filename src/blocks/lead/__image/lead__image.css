@@ -1,0 +1,17 @@
+.lead__image {
+  margin: auto;
+  width: 288px;
+  min-height: 208px;
+  background-color: #9fcfcf;
+  border-radius: 12px;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    border: none;
+    height: 440px;
+    width: 100%;
+  }
+}
