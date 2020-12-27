@@ -2,21 +2,18 @@ import { Link } from "react-router-dom";
 import leadImage from "../images/lead-image.png";
 import infoPhotoOne from "../images/info-pic-one.png";
 import infoPhotoTwo from "../images/info-pic-two.png";
-import infoPhotoThree from "../images/info-pic-three.png"
+import infoPhotoThree from "../images/info-pic-three.png";
 
 function MainPage() {
   return (
     <main className="main">
       <section className="lead">
-        <img src={leadImage} alt="люди, которые обнимаются" className="lead__image">
-        </img>
-        <h1 className="lead__title">
-          Гражданин-поэт – говорите с властью на одном языке!
-        </h1>
+        <img src={leadImage} alt="люди, которые обнимаются" className="lead__image"></img>
+        <h1 className="lead__title">Гражданин-поэт – говорите с властью на одном языке!</h1>
 
         <div className="lead__contanier">
           <p className="lead__contanier-text">
-            Самое важное – сделать хоть что-то для достижения успеха
+            Гражданин-поэт – говорите с властью на одном языке!
           </p>
           <Link to="/login">
             <button type="button" className="lead__button">
@@ -26,9 +23,7 @@ function MainPage() {
         </div>
       </section>
       <section className="info">
-        <h2 className="info__title">
-          Как это работает?
-        </h2>
+        <h2 className="info__title">Как это работает?</h2>
         <ul className="info__items">
           <li className="item">
             <img src={infoPhotoOne} alt="изображение двух голов" className="item__image"></img>
@@ -43,17 +38,17 @@ function MainPage() {
             </p>
           </li>
           <li className="item">
-            <img src={infoPhotoThree} alt="изображение думающего человека" className="item__image"></img>
-            <p className="item__text">
-              Если все получилось, инициативы реализуются
-            </p>
+            <img
+              src={infoPhotoThree}
+              alt="изображение думающего человека"
+              className="item__image"
+            ></img>
+            <p className="item__text">Если все получилось, инициативы реализуются</p>
           </li>
         </ul>
       </section>
       <section className="irtiative-table">
-        <h2 className="irtiative-table__title">
-          Идет голосование
-        </h2>
+        <h2 className="irtiative-table__title">Идет голосование</h2>
         <ul className="irtiative-table__cards">
           <li className="card">
             <div className="card__texts">
@@ -106,32 +101,38 @@ function MainPage() {
         </ul>
       </section>
       <section className="irtiative-table">
-        <h2 className="irtiative-table__title">
-          Принятые решения
-        </h2>
+        <h2 className="irtiative-table__title">Принятые решения</h2>
         <ul className="irtiative-table__cards">
           <li className="card">
             <div className="card__texts card__texts_type_last">
               <p className="card__text">Читайте железные книги! Под флейту...</p>
-              <p className="card__subtext card__subtitle_position_last-of-type">сделано 12.11.2020</p>
+              <p className="card__subtext card__subtitle_position_last-of-type">
+                сделано 12.11.2020
+              </p>
             </div>
           </li>
           <li className="card">
             <div className="card__texts card__texts_type_last">
               <p className="card__text">Где римский судия судил чужой народ, Стоит базилика...</p>
-              <p className="card__subtext card__subtitle_position_last-of-type">сделано 03.09.2020</p>
+              <p className="card__subtext card__subtitle_position_last-of-type">
+                сделано 03.09.2020
+              </p>
             </div>
           </li>
           <li className="card">
             <div className="card__texts card__texts_type_last">
               <p className="card__text">На площади сената — вал сугроба, Дымок костра и холод...</p>
-              <p className="card__subtext card__subtitle_position_last-of-type">сделано 10.12.2020</p>
+              <p className="card__subtext card__subtitle_position_last-of-type">
+                сделано 10.12.2020
+              </p>
             </div>
           </li>
           <li className="card">
             <div className="card__texts card__texts_type_last">
               <p className="card__text">Чудак Евгений бедности стыдится Бензин вдыхает...</p>
-              <p className="card__subtext card__subtitle_position_last-of-type">сделано 02.09.2020</p>
+              <p className="card__subtext card__subtitle_position_last-of-type">
+                сделано 02.09.2020
+              </p>
             </div>
           </li>
         </ul>

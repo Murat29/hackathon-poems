@@ -1,7 +1,9 @@
-import { Link } from "react-router-dom";
 import React from "react";
+import { useHistory } from "react-router-dom";
 
 function Login() {
+  const history = useHistory();
+
   const [openedPopupRegistration, setOpenedPopupRegistration] = React.useState(false);
   const [openedPopupPublicServices, setOpenedPopupPublicServices] = React.useState(false);
 
@@ -20,11 +22,14 @@ function Login() {
             <button type="button" className="form__button-close-password"></button>
           </label>
           <a className="form__link">Я не помню пароль</a>
-          <Link to="/form-part-one">
-            <button type="button" className="form__button">
-              Войти
-            </button>
-          </Link>
+
+          <button
+            onClick={() => history.push("/form-part-one")}
+            type="button"
+            className="form__button"
+          >
+            Войти
+          </button>
 
           <button
             onClick={() => {
@@ -77,15 +82,20 @@ function Login() {
             </label>
             <p className="form__text">Минимальная длина пароля - 8 символов.</p>
             <p className="form__text">
-              Нажимая на кнопку «Зарегистрироваться», &shy;я принимаю {" "}
+              Нажимая на кнопку «Зарегистрироваться», &shy;я принимаю{" "}
               <a href="#" className="form__link form__link_place_registrartion">
                 Условия обслуживания
-              </a>и соглашаюсь с{" "}
+              </a>
+              и соглашаюсь с{" "}
               <a href="#" className="form__link form__link_place_registrartion">
                 Политика конфиденциальности.
               </a>
             </p>
-            <button type="submit" className="form__button-submit">
+            <button
+              onClick={() => history.push("/form-part-one")}
+              type="submit"
+              className="form__button-submit"
+            >
               Зарегистрироваться
             </button>
           </form>
@@ -125,6 +135,7 @@ function Login() {
               Я не помню пароль
             </a>
             <button
+              onClick={() => history.push("/form-part-one")}
               type="submit"
               className="form__button-submit form__button-submit_place_registrartion"
             >
