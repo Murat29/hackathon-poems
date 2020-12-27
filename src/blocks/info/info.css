@@ -1,0 +1,10 @@
+.info {
+    width: 94.74%;
+    margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .info {
+        margin: 56px auto 0;
+    }
+}

@@ -1,11 +1,13 @@
 .item__image {
-    width: 56px;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
 }
 
 @media screen and (min-width: 1024px) {
     .item__image {
-        width: 180px;
-        height: 180px;
-        padding-bottom: 8px;
+        width: 160px;
+        height: 160px;
+        padding-bottom: 16px;
     }
 }

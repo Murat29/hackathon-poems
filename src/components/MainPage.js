@@ -3,6 +3,9 @@ import microphone from "../images/микрофон.svg";
 import lightbulb from "../images/лампочка.svg";
 import checkMark from "../images/галочка.svg";
 import leadImage from "../images/lead-image.png";
+import infoPhotoOne from "../images/info-pic-one.png";
+import infoPhotoTwo from "../images/info-pic-two.png";
+import infoPhotoThree from "../images/info-pic-three.png"
 
 function MainPage() {
   return (
@@ -26,21 +29,27 @@ function MainPage() {
         </div>
       </section>
       <section className="info">
+        <h2 className="info__title">
+          Как это работает?
+        </h2>
         <ul className="info__items">
           <li className="item">
-            <img src={lightbulb} alt="изщбражение лампочки" className="item__image"></img>
+            <img src={infoPhotoOne} alt="изображение двух голов" className="item__image"></img>
             <p className="item__text">
-              Граждане создают инициативы и опросы в форме стихотворения, публикуют их на нашем
-              сайте
+              Вы создаете инициативы в форме стихотворения – мы помогаем соблюдать цензуру
             </p>
           </li>
           <li className="item">
-            <img src={microphone} alt="изображение микрофона" className="item__image"></img>
-            <p className="item__text">Граждане голосуют за понравишуюся инициативу</p>
+            <img src={infoPhotoTwo} alt="изображение человека" className="item__image"></img>
+            <p className="item__text">
+              Инициатива должна пройти модерацию и набрать хотя бы 100 голосов
+            </p>
           </li>
           <li className="item">
-            <img src={checkMark} alt="изображение галочки" className="item__image"></img>
-            <p className="item__text">Администрация принимает решения по результатам голосования</p>
+            <img src={infoPhotoThree} alt="изображение думающего человека" className="item__image"></img>
+            <p className="item__text">
+              Если все получилось, инициативы реализуются
+            </p>
           </li>
         </ul>
       </section>

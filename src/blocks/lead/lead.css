@@ -7,9 +7,9 @@
 
 @media screen and (min-width: 1024px) {
   .lead {
-    width: 100%;
-    margin: 0;
-    padding: 56px 0;
+    width: 81%;
+    margin: auto;
+    padding: 56px 96px;
     background: #F5F1E6;
     display: grid;
     grid-template-columns: 45.47% 1fr;
