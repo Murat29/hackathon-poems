@@ -31,7 +31,7 @@ function Login() {
               setOpenedPopupPublicServices(true);
             }}
             type="button"
-            className="form__button"
+            className="form__button form__button_type_last"
           >
             Войти через Госуслуги
           </button>

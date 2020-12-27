@@ -1,9 +1,13 @@
 .entry {
-  margin-top: 24px;
+  margin: 40px auto 48px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 1024px) {
   .entry {
-    border: 4px solid #667080;
+    margin: 56px auto;
+    border: 4px solid #E85137;
+    border-radius: 12px;
   }
 }
