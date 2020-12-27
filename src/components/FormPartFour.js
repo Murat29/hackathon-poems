@@ -21,7 +21,7 @@ function FormPartThree() {
           <p className="application-form__text" style={{ marginTop: "38px" }}>
             ждет модерации
           </p>
-          <p className="application-form__text">отправленно {NewAppeal.data}</p>
+          <p className="application-form__text">отправлено {NewAppeal.data}</p>
         </div>
         <button
           className="application-form__button application-form__button_type_light"
