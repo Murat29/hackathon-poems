@@ -1,17 +1,17 @@
 .form__text {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 12px;
-    line-height: 16px;
-    margin: 0 auto;
-    width: 259px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0 auto;
+  width: 259px;
 }
 
 @media screen and (min-width: 1024px) {
-    .form__text {
-        width: 100%;
-        font-size: 14px;
-        line-height: 14px;
-    }
+  .form__text {
+    width: 100%;
+    font-size: 14px;
+    line-height: 14px;
+  }
 }
