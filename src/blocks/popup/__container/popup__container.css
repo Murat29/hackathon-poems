@@ -9,5 +9,7 @@
     .popup__container {
         width: 336px;
         min-height: 440px;
+        border: 4px solid #E85137;
+        border-radius: 12px;
     }
 }

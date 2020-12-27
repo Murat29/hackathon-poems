@@ -1,12 +1,9 @@
 .popup__title {
-    font-weight: 300;
-    font-size: 28px;
-    line-height: 114%;
-    margin: 0;
-}
-
-@media screen and (min-width: 1024px) {
-    .popup__title {
-        margin-left: 58px;
-    }
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    margin: auto;
+    color: #17192D;
 }

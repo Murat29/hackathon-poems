@@ -1,9 +1,11 @@
 .form__text {
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 140%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 16px;
     margin: 0 auto;
-    width: 272px;
+    width: 259px;
 }
 
 @media screen and (min-width: 1024px) {
