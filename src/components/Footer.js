@@ -13,7 +13,8 @@ function Footer() {
             <a>Политика конфиденциальности</a>
           </li>
           <li>
-            <p className="info-list__helpful-info">Официальный сайт Гражданин-поэт, 2025 г.</p>
+            <p className="info-list__helpful-info info-list__helpful-info_type_mobile">Гражданин-поэт, 2025 г.</p>
+            <p className="info-list__helpful-info info-list__helpful-info_type_desktop">Официальный сайт Гражданин-поэт, 2025 г.</p>
           </li>
         </ul>
         <nav className="social-icons">

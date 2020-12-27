@@ -1,7 +1,15 @@
 .application-form__input {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
   margin-top: 16px;
   min-height: 40px;
   width: 100%;
+  border: 1px solid #17192d;
+  box-sizing: border-box;
+  border-radius: 12px;
+  outline: none;
+  background: #ffffff;
 }
 
 @media screen and (max-width: 425px) {

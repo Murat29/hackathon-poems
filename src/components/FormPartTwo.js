@@ -1,17 +1,17 @@
 import statusBar2 from "../images/status-bar-2.svg";
 import React from "react";
 import Input from "./Input.js";
-import { Link } from "react-router-dom";
 import NewAppealContext from "./contexts/NewAppealContext";
+import { useHistory } from "react-router-dom";
 
 function FormPartTwo({ SetNewAppeal }) {
-  const NewAppeal = React.useContext(NewAppealContext);
+  const history = useHistory();
 
+  const NewAppeal = React.useContext(NewAppealContext);
   const [inputs, setInputs] = React.useState([""]);
   const [poems, setPoems] = React.useState([]);
 
-  function addInput(evt) {
-    evt.preventDefault();
+  function addInput() {
     if (inputs.length < 4) {
       setInputs([...inputs, ""]);
     }
@@ -28,20 +28,26 @@ function FormPartTwo({ SetNewAppeal }) {
     setInputs(newInputs);
   }
 
-  function handleSubmit() {
-    SetNewAppeal({ ...NewAppeal, poem: poems });
+  function handleSubmit(evt) {
+    evt.preventDefault();
+    if (inputs.length == poems.length) {
+      SetNewAppeal({ ...NewAppeal, poem: poems });
+      history.push("/form-part-three");
+    }
   }
 
-  function onSubmit(evt) {}
   return (
     <main className="application-form">
-      <h2 className="application-form__title">текст заголовка</h2>
+      <h2 className="application-form__title">Мы поможем подобрать строку</h2>
       <img className="application-form__status-bar" src={statusBar2} alt="Статус-бар"></img>
 
-      <form className="application-form__form" onSubmit={onSubmit}>
-        <h3 className="application-form__subtitle">текст подзаголовка</h3>
-        <p className="application-form__text">текст, подсказывающий как работать с формой</p>
-        <p className="application-form__text">текст, подсказывающий как работать с формой</p>
+      <form className="application-form__form">
+        <p className="application-form__text">
+          Начните с ключевого слова - мы поможем найти подходящую строку стихотворения классиков.
+        </p>
+        <p className="application-form__text">
+          Добавляйте нужное количество строк, чтобы описать инициативу.
+        </p>
 
         {inputs.map((el, i) => (
           <Input
@@ -56,19 +62,21 @@ function FormPartTwo({ SetNewAppeal }) {
         ))}
 
         <button
+          type="button"
           onClick={addInput}
           disabled={inputs.length > 3 ? true : false}
           className="application-form__button application-form__button_type_add-input"
         ></button>
-        <Link to="/form-part-three" style={{ alignSelf: "center" }}>
-          <button
-            onClick={handleSubmit}
-            className="application-form__button application-form__button_type_submit"
-            type="submit"
-          >
-            продолжить
-          </button>
-        </Link>
+        <button
+          onClick={handleSubmit}
+          className={`application-form__button application-form__button_type_submit ${
+            !(inputs.length == poems.filter((el) => el != undefined).length) &&
+            "application-form__button_disabled"
+          }`}
+          type="submit"
+        >
+          Создать инициативу
+        </button>
       </form>
     </main>
   );

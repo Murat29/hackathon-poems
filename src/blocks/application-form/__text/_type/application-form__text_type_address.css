@@ -1,3 +1,10 @@
 .application-form__text_type_address {
-  align-self: start;
+  align-self: center;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 425px) {
+  .application-form__text_type_address {
+    align-self: flex-start;
+  }
 }

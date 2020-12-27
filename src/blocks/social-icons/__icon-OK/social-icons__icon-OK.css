@@ -1,3 +1,11 @@
 .social-icons__icon-OK{
-    width: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+    .social-icons__icon-OK {
+        width: 12px;
+        height: 16px;
+    }
 }

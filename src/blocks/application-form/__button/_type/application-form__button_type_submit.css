@@ -1,20 +1,22 @@
 .application-form__button_type_submit {
   position: relative;
-  margin: 40px 0 40px;
+  margin: 40px 0 56px;
   background: #667080;
   color: #fff;
-  min-height: 42px;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 21px;
+  min-height: 32px;
+  font-size: 14px;
+  line-height: 16px;
   min-width: 272px;
   align-self: center;
+  background: #e85137;
+  border-radius: 8px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
 }
 
 @media screen and (max-width: 425px) {
   .application-form__button_type_submit {
     margin-top: 24px;
-    font-size: 14px;
-    line-height: 16px;
   }
 }

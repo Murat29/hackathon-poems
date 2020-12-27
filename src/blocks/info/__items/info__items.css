@@ -1,9 +1,9 @@
 .info__items {
     display: grid;
-    row-gap: 24px;
+    row-gap: 32px;
     list-style-type: none;
     padding: 0;
-    margin: auto;
+    margin: 35px auto 0;
     max-width: 320px;
 }
 

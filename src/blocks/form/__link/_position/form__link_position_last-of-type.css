@@ -1,9 +1,13 @@
 .form__link_position_last-of-type {
-    margin: 23px auto 20px;
+    margin: auto;
+    font-size: 14px;
+    color: #E85137;
 }
 
 @media screen and (min-width: 1024px) {
     .form__link_position_last-of-type {
-        margin: 0 auto 56px;
+        margin: 0 auto 64px;
+        font-size: 18px;
+        line-height: 21px;
     }
 }

@@ -1,6 +1,6 @@
 .header__icons {
-    width: 88.75%;
-    height: 30px;
+    width: 90%;
+    height: 32px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -9,7 +9,8 @@
 
 @media screen and (min-width: 1024px) {
     .header__icons {
-        width: 81.57%;
+        display: none;
+        width: 81.25%;
         height: 80px;
     }
 }

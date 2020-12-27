@@ -1,12 +1,5 @@
 .header__icon-menu {
-    width: 37px;
+    width: 32px;
     padding: 0;
-    background-color: #c4c4c4;
     border: none;
-}
-
-@media screen and (min-width: 1024px) {
-    .header__icon-menu {
-        display: none;
-    }
 }

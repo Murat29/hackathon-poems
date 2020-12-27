@@ -1,0 +1,9 @@
+.header__icons_type_desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__icons_type_desktop {
+        display: flex;
+    }
+}
