@@ -55,14 +55,16 @@
 
 @import url(./blocks/irtiative-table/irtiative-table.css);
 @import url(./blocks/irtiative-table/__title/irtiative-table__title.css);
-@import url(./blocks/irtiative-table/__text-number/irtiative-table__text-number.css);
 @import url(./blocks/irtiative-table/__cards/irtiative-table__cards.css);
 
 @import url(./blocks/card/card.css);
 @import url(./blocks/card/__texts/card__texts.css);
+@import url(./blocks/card/__texts/_type/card__texts_type_last.css);
 @import url(./blocks/card/__text/card__text.css);
+@import url(./blocks/card/__vote/card__vote.css);
 @import url(./blocks/card/__subtext/card__subtext.css);
 @import url(./blocks/card/__subtext/_position/card__subtext_position_last-of-type.css);
+@import url(./blocks/card/__button-like/card__button-like.css);
 @import url(./blocks/card/__button/card__button.css);
 
 @import url(./blocks/footer/footer.css);

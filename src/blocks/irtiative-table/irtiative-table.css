@@ -1,15 +1,22 @@
 .irtiative-table {
+  width: 94.74%;
+  margin: 40px auto 0;
   overflow: auto;
   display: grid;
-  row-gap: 24px;
+  row-gap: 32px;
 }
 
 .irtiative-table:last-of-type {
-  margin-bottom: 24px;
+  margin-bottom: 90px;
 }
 
 @media screen and (min-width: 1024px) {
   .irtiative-table {
+    margin: 56px auto 0;
     row-gap: 40px;
+  }
+
+  .irtiative-table:last-of-type {
+    margin-bottom: 96px;
   }
 }

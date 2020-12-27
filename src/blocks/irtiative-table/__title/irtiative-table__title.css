@@ -1,13 +1,10 @@
 .irtiative-table__title {
-    font-weight: bold;
-    font-size: 18px;
+    width: 224px;
+    margin: 0 auto;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
     line-height: 32px;
-    color: #667080;
-    margin: 0;
-}
-
-@media screen and (min-width: 1024px) {
-    .irtiative-table__title {
-        font-size: 24px;
-    }
+    color: #17192d;
 }

@@ -1,0 +1,12 @@
+.card__vote {
+    width: 144px;
+    margin: 24px auto 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1024px) {
+    .card__vote {
+        margin: 0 0 24px 24px;
+    }
+}
