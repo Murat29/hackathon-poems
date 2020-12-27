@@ -1,19 +1,19 @@
 .card__text {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    color: #17192d;
-    margin: auto;
-    width: 144px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #17192d;
+  margin: auto;
+  width: 144px;
 }
 
 @media screen and (min-width: 1024px) {
-    .card__text {
-        margin: 24px 0 24px 24px;
-        font-size: 18px;
-        line-height: 24px;
-        width: 224px;
-    }
+  .card__text {
+    margin: 24px 0 24px 24px;
+    font-size: 18px;
+    line-height: 24px;
+    width: 224px;
+  }
 }
