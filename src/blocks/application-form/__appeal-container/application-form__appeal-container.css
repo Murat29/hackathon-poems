@@ -1,9 +1,11 @@
 .application-form__appeal-container {
   margin-top: 20px;
   width: 100%;
-  min-height: 200px;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
+  background: #9fcfcf;
+  border-radius: 12px;
+  padding: 24px;
 }

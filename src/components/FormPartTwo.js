@@ -38,13 +38,16 @@ function FormPartTwo({ SetNewAppeal }) {
 
   return (
     <main className="application-form">
-      <h2 className="application-form__title">текст заголовка</h2>
+      <h2 className="application-form__title">Мы поможем подобрать строку</h2>
       <img className="application-form__status-bar" src={statusBar2} alt="Статус-бар"></img>
 
       <form className="application-form__form">
-        <h3 className="application-form__subtitle">текст подзаголовка</h3>
-        <p className="application-form__text">текст, подсказывающий как работать с формой</p>
-        <p className="application-form__text">текст, подсказывающий как работать с формой</p>
+        <p className="application-form__text">
+          Начните с ключевого слова - мы поможем найти подходящую строку стихотворения классиков.
+        </p>
+        <p className="application-form__text">
+          Добавляйте нужное количество строк, чтобы описать инициативу.
+        </p>
 
         {inputs.map((el, i) => (
           <Input
@@ -67,11 +70,12 @@ function FormPartTwo({ SetNewAppeal }) {
         <button
           onClick={handleSubmit}
           className={`application-form__button application-form__button_type_submit ${
-            !(inputs.length == poems.length) && "application-form__button_disabled"
+            !(inputs.length == poems.filter((el) => el != undefined).length) &&
+            "application-form__button_disabled"
           }`}
           type="submit"
         >
-          продолжить
+          Создать инициативу
         </button>
       </form>
     </main>

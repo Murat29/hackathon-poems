@@ -10,39 +10,44 @@ function FormPartThree({ SetNewAppeal }) {
   const NewAppeal = React.useContext(NewAppealContext);
 
   function handleSubmit() {
-    const data = new Date().toLocaleString();
+    const data = new Date().toLocaleString().slice(0, -3);
     SetNewAppeal({ ...NewAppeal, data: data });
     history.push("/form-part-four");
   }
 
   return (
     <main className="application-form">
-      <h2 className="application-form__title">текст заголовка</h2>
+      <h2 className="application-form__title">Проверьте детали инициативы</h2>
       <img className="application-form__status-bar" src={statusBar3} alt="Статус-бар"></img>
 
       <form className="application-form__form">
-        <h3 className="application-form__subtitle">текст подзаголовка</h3>
+        <h3 className="application-form__subtitle">
+          {NewAppeal.theme ? NewAppeal.theme[0].toUpperCase() + NewAppeal.theme.slice(1) : ""}
+        </h3>
         <p className="application-form__text application-form__text_type_address">
           <img className="application-form__icon-address" src={iconAddress} alt="Адрес"></img>
           {NewAppeal.address ? NewAppeal.address.value : ""}
         </p>
         <div className="application-form__poem-container">
-          {NewAppeal.poem &&
-            NewAppeal.poem.map((el) => <p className="application-form__text">{el}</p>)}
+          {NewAppeal.poem.map((el, i) => (
+            <p key={i} className="application-form__text_type_poems">
+              {el}
+            </p>
+          ))}
         </div>
         <button
           onClick={() => history.goBack()}
-          className="application-form__button application-form__button_type_back"
+          className="application-form__button application-form__button_type_light"
           type="button"
         >
-          назад к редактированию
+          Назад к редактированию
         </button>
         <button
           onClick={handleSubmit}
           className="application-form__button application-form__button_type_submit"
           type="submit"
         >
-          опубликовать
+          Отправить
         </button>
       </form>
     </main>

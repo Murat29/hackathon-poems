@@ -1,0 +1,22 @@
+.application-form__button_type_light {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+  position: relative;
+  margin: 40px 0 -30px;
+  min-height: 32px;
+  min-width: 272px;
+  align-self: center;
+  background: #f5f1e6;
+  border: 2px solid #e85137;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 425px) {
+  .application-form__button_type_light {
+    margin-bottom: -18px;
+  }
+}
