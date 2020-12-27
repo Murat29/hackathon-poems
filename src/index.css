@@ -93,6 +93,7 @@
 @import url(./blocks/form/__link/_place/form__link_place_registrartion.css);
 @import url(./blocks/form/__text/form__text.css);
 @import url(./blocks/form/__button/form__button.css);
+@import url(./blocks/form/__button/_type/form__button_type_last.css);
 @import url(./blocks/form/__button-submit/form__button-submit.css);
 @import url(./blocks/form/__button-submit/_place/form__button-submit_place_registrartion.css);
 
