@@ -77,19 +77,16 @@ function Login() {
             </label>
             <p className="form__text">Минимальная длина пароля - 8 символов.</p>
             <p className="form__text">
-              Нажимая на кнопку «Зарегистрироваться», &shy;Вы принимаете наши{" "}
+              Нажимая на кнопку «Зарегистрироваться», &shy;я принимаю {" "}
               <a href="#" className="form__link form__link_place_registrartion">
-                Условия обслуживания.
-              </a>
-            </p>
-            <p className="form__text">
-              Читать{" "}
+                Условия обслуживания
+              </a>и соглашаюсь с{" "}
               <a href="#" className="form__link form__link_place_registrartion">
                 Политика конфиденциальности.
               </a>
             </p>
             <button type="submit" className="form__button-submit">
-              Принять и зарегистрироваться
+              Зарегистрироваться
             </button>
           </form>
         </div>
