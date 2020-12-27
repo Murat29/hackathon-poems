@@ -1,24 +1,27 @@
 .entry__button {
-  width: 104px;
-  font-weight: 300;
-  font-size: 28px;
-  line-height: 114%;
-  text-align: end;
+  width: 76px;
+  margin: 0 auto 48px;
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
   background-color: white;
   border: none;
-  background-image: url(../../../images/иконкапрофиля.svg);
-  background-size: 16px 32px;
-  background-position: left;
-  background-repeat: no-repeat;
-  margin-bottom: 80px;
 }
 
 @media screen and (min-width: 1024px) {
   .entry__button {
-    background-image: url(../../../images/иконкапрофиля-desktop.svg);
-    background-size: 56px 56px;
-    width: 136px;
-    height: 56px;
-    margin: 24px 0 16px 24px;
+    margin: 24px 0 48px 24px;
+    background-image: url(../../../images/стрелка\ назад.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    width: 95px;
+    height: 32px;
+    text-align: end;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
   }
 }

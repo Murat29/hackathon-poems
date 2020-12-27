@@ -3,13 +3,14 @@
     padding: 0;
     list-style-type: none;
     display: grid;
-    grid-template-columns: repeat(4, 190px);
-    column-gap: 16px;
+    grid-template-columns: repeat(4, 174px);
+    column-gap: 11px;
     overflow: auto;
 }
 
 @media screen and (min-width: 1024px) {
     .irtiative-table__cards {
         grid-template-columns: repeat(4, 336px);
+        column-gap: 16px;
     }
 }

@@ -1,0 +1,9 @@
+.info-list__helpful-info_type_mobile {
+    display: block;
+}
+
+@media screen and (min-width: 1024px) {
+    .info-list__helpful-info_type_mobile {
+        display: none;
+    }
+}
