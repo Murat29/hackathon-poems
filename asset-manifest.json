@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hackathon-poems/static/css/main.24d57317.chunk.css",
-    "main.js": "/hackathon-poems/static/js/main.80d73a03.chunk.js",
-    "main.js.map": "/hackathon-poems/static/js/main.80d73a03.chunk.js.map",
+    "main.css": "/hackathon-poems/static/css/main.5371e36f.chunk.css",
+    "main.js": "/hackathon-poems/static/js/main.f1cb2063.chunk.js",
+    "main.js.map": "/hackathon-poems/static/js/main.f1cb2063.chunk.js.map",
     "runtime-main.js": "/hackathon-poems/static/js/runtime-main.8a9ee3e9.js",
     "runtime-main.js.map": "/hackathon-poems/static/js/runtime-main.8a9ee3e9.js.map",
     "static/css/2.f2498732.chunk.css": "/hackathon-poems/static/css/2.f2498732.chunk.css",
@@ -12,26 +12,29 @@
     "static/js/3.d119fe02.chunk.js.map": "/hackathon-poems/static/js/3.d119fe02.chunk.js.map",
     "index.html": "/hackathon-poems/index.html",
     "static/css/2.f2498732.chunk.css.map": "/hackathon-poems/static/css/2.f2498732.chunk.css.map",
-    "static/css/main.24d57317.chunk.css.map": "/hackathon-poems/static/css/main.24d57317.chunk.css.map",
+    "static/css/main.5371e36f.chunk.css.map": "/hackathon-poems/static/css/main.5371e36f.chunk.css.map",
     "static/js/2.1cb4f39f.chunk.js.LICENSE.txt": "/hackathon-poems/static/js/2.1cb4f39f.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/hackathon-poems/static/media/скрыть пароль.5854ebfa.svg",
-    "static/media/icon-address.95447a5f.svg": "/hackathon-poems/static/media/icon-address.95447a5f.svg",
-    "static/media/status-bar-1.bd825f8a.svg": "/hackathon-poems/static/media/status-bar-1.bd825f8a.svg",
-    "static/media/status-bar-2.254f5442.svg": "/hackathon-poems/static/media/status-bar-2.254f5442.svg",
-    "static/media/status-bar-3.8124f181.svg": "/hackathon-poems/static/media/status-bar-3.8124f181.svg",
-    "static/media/status-bar-4.119fdfb5.svg": "/hackathon-poems/static/media/status-bar-4.119fdfb5.svg",
-    "static/media/галочка.2820d823.svg": "/hackathon-poems/static/media/галочка.2820d823.svg",
-    "static/media/иконка меню.90142ca1.svg": "/hackathon-poems/static/media/иконка меню.90142ca1.svg",
-    "static/media/лампочка.f54b3ce3.svg": "/hackathon-poems/static/media/лампочка.f54b3ce3.svg",
-    "static/media/лого-вк.e754b053.svg": "/hackathon-poems/static/media/лого-вк.e754b053.svg",
-    "static/media/лого-ок.2676f82d.svg": "/hackathon-poems/static/media/лого-ок.2676f82d.svg",
-    "static/media/микрофон.0ac8a2f6.svg": "/hackathon-poems/static/media/микрофон.0ac8a2f6.svg"
+    "static/media/index.css": "/hackathon-poems/static/media/стрелка назад.36dd2417.svg",
+    "static/media/icon-address-white.09a3b3ad.svg": "/hackathon-poems/static/media/icon-address-white.09a3b3ad.svg",
+    "static/media/icon-address.88905541.svg": "/hackathon-poems/static/media/icon-address.88905541.svg",
+    "static/media/info-pic-one.80738404.png": "/hackathon-poems/static/media/info-pic-one.80738404.png",
+    "static/media/info-pic-three.2d361d18.png": "/hackathon-poems/static/media/info-pic-three.2d361d18.png",
+    "static/media/info-pic-two.eeab1d77.png": "/hackathon-poems/static/media/info-pic-two.eeab1d77.png",
+    "static/media/lead-image.69c73e9b.png": "/hackathon-poems/static/media/lead-image.69c73e9b.png",
+    "static/media/status-bar-1.db9d7e1f.svg": "/hackathon-poems/static/media/status-bar-1.db9d7e1f.svg",
+    "static/media/status-bar-2.f387b934.svg": "/hackathon-poems/static/media/status-bar-2.f387b934.svg",
+    "static/media/status-bar-3.3abbe14d.svg": "/hackathon-poems/static/media/status-bar-3.3abbe14d.svg",
+    "static/media/status-bar-4.8c9536c8.svg": "/hackathon-poems/static/media/status-bar-4.8c9536c8.svg",
+    "static/media/иконка меню.e4deef64.svg": "/hackathon-poems/static/media/иконка меню.e4deef64.svg",
+    "static/media/иконкапрофиля.1c3f4e0c.svg": "/hackathon-poems/static/media/иконкапрофиля.1c3f4e0c.svg",
+    "static/media/лого-вк.2df6179a.svg": "/hackathon-poems/static/media/лого-вк.2df6179a.svg",
+    "static/media/лого-ок.02c61cce.svg": "/hackathon-poems/static/media/лого-ок.02c61cce.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8a9ee3e9.js",
     "static/css/2.f2498732.chunk.css",
     "static/js/2.1cb4f39f.chunk.js",
-    "static/css/main.24d57317.chunk.css",
-    "static/js/main.80d73a03.chunk.js"
+    "static/css/main.5371e36f.chunk.css",
+    "static/js/main.f1cb2063.chunk.js"
   ]
 }
