@@ -1,7 +1,8 @@
 .card__texts {
-    border: 4px solid #667080;
-    width: 182px;
-    min-height: 92px;
+    border: 4px solid #e85137;
+    border-radius: 12px;
+    width: 100%;
+    min-height: 170px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +10,6 @@
 
 @media screen and (min-width: 1024px) {
     .card__texts {
-        width: 336px;
         min-height: 160px;
     }
 }
