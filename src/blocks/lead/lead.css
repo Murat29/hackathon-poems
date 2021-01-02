@@ -1,0 +1,25 @@
+.lead {
+  width: 94.74%;
+  margin: 24px auto 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    width: 81%;
+    margin: auto;
+    padding: 56px 96px;
+    background: #F5F1E6;
+    display: grid;
+    grid-template-columns: 45.47% 1fr;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    padding: 56px 120px;
+    border-radius: 24px;
+  }
+}

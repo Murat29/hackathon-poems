@@ -1,0 +1,16 @@
+.header__icons {
+    width: 90%;
+    height: 32px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__icons {
+        display: none;
+        width: 81.25%;
+        height: 80px;
+    }
+}

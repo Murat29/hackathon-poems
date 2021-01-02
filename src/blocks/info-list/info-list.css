@@ -1,0 +1,15 @@
+.info-list {
+    width: 217px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .info-list {
+        width: 330px;
+        display: grid;
+        row-gap: 8px;
+        grid-template-rows: repeat(3, 16px);
+    }
+}

@@ -1,0 +1,13 @@
+.form__button {
+  background: #e85137;
+  border: 2px solid #e85137;
+  border-radius: 8px;
+  width: 100%;
+  min-height: 32px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+  color: #f5f1e6;
+}

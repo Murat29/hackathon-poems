@@ -1,0 +1,13 @@
+.popup__title-block {
+    width: 272px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto 48px;
+}
+
+@media screen and (min-width: 1024px) {
+    .popup__title-block {
+        margin-bottom: 40px;
+    }
+}

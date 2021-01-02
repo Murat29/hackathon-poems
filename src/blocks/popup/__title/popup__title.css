@@ -1,0 +1,9 @@
+.popup__title {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  margin: auto;
+  color: #17192d;
+}

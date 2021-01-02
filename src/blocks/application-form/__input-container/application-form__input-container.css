@@ -1,0 +1,7 @@
+.application-form__input-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  width: 100%;
+  position: relative;
+}

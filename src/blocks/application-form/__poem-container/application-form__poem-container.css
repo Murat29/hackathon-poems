@@ -1,0 +1,8 @@
+.application-form__poem-container {
+  margin-top: 20px;
+  padding: 20px 30px;
+  width: 100%;
+  border: 4px solid #f5f1e6;
+  box-sizing: border-box;
+  border-radius: 12px;
+}

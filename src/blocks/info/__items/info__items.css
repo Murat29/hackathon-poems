@@ -1,0 +1,16 @@
+.info__items {
+    display: grid;
+    row-gap: 32px;
+    list-style-type: none;
+    padding: 0;
+    margin: 35px auto 0;
+    max-width: 320px;
+}
+
+@media screen and (min-width: 1024px) {
+    .info__items {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1040px;
+    }
+}

@@ -1,0 +1,13 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .item {
+        flex-direction: column;
+        justify-content: normal;
+        width: 300px;
+    }
+}

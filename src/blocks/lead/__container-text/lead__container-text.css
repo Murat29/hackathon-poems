@@ -1,0 +1,16 @@
+.lead__contanier-text {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__contanier-text {
+    width: 424px;
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #17192c;
+    display: block;
+  }
+}

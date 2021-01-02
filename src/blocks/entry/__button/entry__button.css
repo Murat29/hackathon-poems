@@ -1,0 +1,27 @@
+.entry__button {
+  width: 76px;
+  margin: 0 auto 48px;
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  background-color: white;
+  border: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .entry__button {
+    margin: 24px 0 48px 24px;
+    background-image: url(../../../images/стрелка\ назад.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    width: 95px;
+    height: 32px;
+    text-align: end;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}

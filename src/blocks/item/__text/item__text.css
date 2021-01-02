@@ -1,0 +1,16 @@
+.item__text {
+  width: 213px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #17192d;
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .item__text {
+    text-align: center;
+  }
+}

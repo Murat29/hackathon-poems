@@ -1,0 +1,32 @@
+.info-list__helpful-info {
+  min-height: 18px;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737273;
+}
+
+.info-list__helpful-info:last-of-type {
+  font-size: 12px;
+  line-height: 16px;
+  margin: 12px 28px 0 0;
+  text-align: end;
+}
+
+@media screen and (min-width: 1024px) {
+  .info-list__helpful-info {
+    font-size: 14px;
+    line-height: 16px;
+    color: #667080;
+  }
+
+  .info-list__helpful-info:last-of-type {
+    margin: 0;
+    font-size: 12px;
+    text-align: start;
+  }
+}

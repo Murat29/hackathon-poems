@@ -1,0 +1,20 @@
+.application-form__button_type_history {
+  margin: 40px 0 40px;
+  min-height: 42px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  min-width: 272px;
+  align-self: center;
+  background: #ffffff;
+  border: 2px solid #667080;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 425px) {
+  .application-form__button_type_history {
+    margin: 20px 0 20px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
