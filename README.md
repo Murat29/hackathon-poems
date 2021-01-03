@@ -17,6 +17,7 @@
 * CSS
 * JavaScript
 * React
+* React Router
 
 ### Информация, как собрать проект
 1) Скачать проект
